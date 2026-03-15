@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地域の交流会：盆栽とまちづくり</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .font-serif {
+            font-family: 'Shippori Mincho', serif;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1512428813834-c702c7702b78?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+        }
+        .accent-border {
+            border-left: 4px solid #2d5a27;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <!-- Hero Section -->
+    <header class="hero-bg h-[70vh] flex items-center justify-center text-white text-center px-4">
+        <div>
+            <p class="text-sm md:text-lg tracking-[0.2em] mb-4 opacity-90">第2回 土呂エリア</p>
+            <h1 class="text-4xl md:text-6xl font-serif mb-6 leading-tight">地域の交流会</h1>
+            <p class="text-lg md:text-xl font-light mb-8 italic">〜盆栽とまちづくりをテーマに〜</p>
+            <p class="text-lg md:text-xl font-light mb-8">2025年3月13日(金) 18:00開始<br>盆栽レストラン大宮</p>
+            <div class="inline-block bg-stone-500 text-white px-8 py-4 rounded-full font-bold shadow-lg cursor-not-allowed">
+                受付は終了しました
+            </div>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="max-w-4xl mx-auto px-6 py-16 md:py-24">
+        <div class="accent-border pl-6 mb-12">
+            <h2 class="text-2xl md:text-3xl font-serif mb-4">土呂・盆栽町の未来を、<br class="md:hidden">みんなで描く。</h2>
+            <p class="leading-relaxed text-stone-600">
+                大宮盆栽村の伝統を守りながら、これからの地域をどう盛り上げていくか。<br>
+                今回は、大宮盆栽村まちづくり協議会の角さん（盆栽町の町会長）をお招きし、協議会の活動紹介や地域経済の課題についてお話しいただき、みんなで意見交換を行いたいと思います。
+            </p>
+        </div>
+    </section>
+
+    <!-- Event Detail -->
+    <section class="bg-white py-16 shadow-inner">
+        <div class="max-w-4xl mx-auto px-6">
+            <h3 class="text-center font-serif text-2xl mb-12">開催概要</h3>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="font-bold text-[#2d5a27] mb-1">日時</h4>
+                        <p>2025年3月13日(金)<br>第1部 18:00 - 19:00 (意見交換会)<br>第2部 19:00 - 21:00 (懇親会)</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#2d5a27] mb-1">会場</h4>
+                        <p>盆栽レストラン大宮<br><span class="text-sm text-stone-500">土呂駅東口 徒歩6分 / 盆栽町内</span></p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#2d5a27] mb-1">スピーカー</h4>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li>角 氏（大宮盆栽村まちづくり協議会・盆栽町町会長）</li>
+                            <li>片倉 氏（元さいたま市職員）</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-stone-100 p-8 rounded-lg">
+                    <h4 class="font-serif text-xl mb-4">内容</h4>
+                    <p class="text-sm leading-relaxed space-y-2">
+                        ・大宮盆栽村まちづくり協議会の活動について<br>
+                        ・さいたま市北部の地域経済の課題と展望<br>
+                        ・参加者全員での意見交換・交流
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="register" class="py-20 px-6 text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="font-serif text-2xl md:text-3xl mb-8">ご案内</h2>
+            <div class="mb-10 p-6 bg-stone-100 rounded-lg border border-stone-200">
+                <p class="text-stone-700 leading-relaxed">
+                    本イベントの参加申し込み受付は終了いたしました。多数のお申し込み、誠にありがとうございました。
+                </p>
+            </div>
+            
+            <div class="bg-white p-1 rounded-2xl shadow-xl border-2 border-stone-200 overflow-hidden mb-8 max-w-md mx-auto opacity-75">
+                <div class="bg-stone-500 text-white py-3 font-bold">
+                    参加申込み
+                </div>
+                <div class="p-8">
+                    <p class="mb-6 text-sm text-stone-500">お申し込みの受付は締め切りました。</p>
+                    <div class="inline-block w-full bg-stone-300 text-stone-600 px-12 py-5 rounded-full font-bold text-lg cursor-not-allowed">
+                        受付は終了しました
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-stone-500 font-medium">主催：地域の交流会実行委員会</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-800 text-stone-400 py-8 text-center text-xs">
+        <p>&copy; 2025 地域の交流会実行委員会</p>
+    </footer>
+
+</body>
+</html>

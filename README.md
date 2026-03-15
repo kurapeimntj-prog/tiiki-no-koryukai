@@ -14,6 +14,7 @@
         .font-serif {
             font-family: 'Shippori Mincho', serif;
         }
+        /* ヒーローエリアの背景設定 */
         .hero-bg {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
                         url('https://images.unsplash.com/photo-1512428813834-c702c7702b78?auto=format&fit=crop&q=80&w=2000');
@@ -27,7 +28,7 @@
 </head>
 <body class="bg-stone-50 text-stone-800">
 
-    <!-- Hero Section -->
+    <!-- ヒーローセクション（冒頭部分） -->
     <header class="hero-bg h-[70vh] flex items-center justify-center text-white text-center px-4">
         <div>
             <p class="text-sm md:text-lg tracking-[0.2em] mb-4 opacity-90">第2回 土呂エリア</p>
@@ -40,7 +41,7 @@
         </div>
     </header>
 
-    <!-- Intro Section -->
+    <!-- 紹介セクション -->
     <section class="max-w-4xl mx-auto px-6 py-16 md:py-24">
         <div class="accent-border pl-6 mb-12">
             <h2 class="text-2xl md:text-3xl font-serif mb-4">土呂・盆栽町の未来を、<br class="md:hidden">みんなで描く。</h2>
@@ -51,7 +52,7 @@
         </div>
     </section>
 
-    <!-- Event Detail -->
+    <!-- 開催概要セクション -->
     <section class="bg-white py-16 shadow-inner">
         <div class="max-w-4xl mx-auto px-6">
             <h3 class="text-center font-serif text-2xl mb-12">開催概要</h3>
@@ -87,7 +88,7 @@
         </div>
     </section>
 
-    <!-- Registration -->
+    <!-- 申し込み・案内セクション -->
     <section id="register" class="py-20 px-6 text-center">
         <div class="max-w-2xl mx-auto">
             <h2 class="font-serif text-2xl md:text-3xl mb-8">ご案内</h2>
@@ -113,7 +114,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- フッター -->
     <footer class="bg-stone-800 text-stone-400 py-8 text-center text-xs">
         <p>&copy; 2025 地域の交流会実行委員会</p>
     </footer>

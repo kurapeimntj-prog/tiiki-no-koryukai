@@ -17,7 +17,7 @@
         /* ヒーローエリアの背景設定（ここにバナー画像を設定してください） */
         .hero-bg {
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                        url('https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=2000');
+                        url(https://drive.google.com/drive/folders/1L5OK9OEg5CvhxNMWMrwpMig1LNr65WDq)');
             background-size: cover;
             background-position: center;
         }
